@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0; 
+  }
+    
+  .grid {
+    margin: 200px auto;
+
+
+    border: 1px solid black;
+    height: 240px;
+    width: 240px;
+    box-sizing:border-box;
+    display:flex;
+  
+  }
+  
+  .row {
+    flex:1
+  }
+  
+  .col {
+    border: 1px solid black;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+  }
+  
+  .col:hover{
+    cursor:pointer;
+  }
+  .redbg{
+    background:red;
+  }
+  .blackbg{
+    background:black;
+  }
+  .whitebg{
+    background:white;
+  }
